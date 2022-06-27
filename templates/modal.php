@@ -1,4 +1,13 @@
-    <!-- Main modal 1 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+</head>
+<body>   
+   <!-- Main modal 1 -->
     <div id="defaultModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
     <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
         <!-- Modal content -->
@@ -34,9 +43,12 @@
                     Harga Langganan <br>
                     Rp.900.000
                 </h3>
-                <button data-modal-toggle="defaultModal" type="button" class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Beli Sekarang</button>
+                <button data-modal-toggle="defaultModal" type="button" href=""class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Beli Sekarang</button>
             </div>
             
         </div>
     </div>
 </div>
+</body>
+<script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+</html>
