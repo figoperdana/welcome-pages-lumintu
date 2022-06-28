@@ -203,7 +203,7 @@
                   </div>
                   <br>
                   <div class="text-center">
-                <a type="button" data-modal-toggle="defaultModal" class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Ayo Gabung Sekarang</a>
+                <a type="button" data-modal-toggle="defaultModal3" class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Ayo Gabung Sekarang</a>
                 </div>
                 </div>
               </a>
@@ -226,7 +226,7 @@
                   </div>
                   <br>
                   <div class="text-center">
-                <a type="button" data-modal-toggle="defaultModal" class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Ayo Gabung Sekarang</a>
+                <a type="button" data-modal-toggle="defaultModal4" class="text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Ayo Gabung Sekarang</a>
                 </div>
                 </div>
               </a>
