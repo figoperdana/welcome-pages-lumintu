@@ -27,7 +27,7 @@
 <body>
   <div class="bg-white w-full h-screen">
     <?php
-    require_once "templates/navbar.php";
+    require_once "templates/navbarr.php";
     ?>
 <header>
   <div class="max-w-screen-2xl px-4 py-8 mx-auto sm:py-6 sm:px-2 lg:px-2">
@@ -47,29 +47,7 @@
           class="inline-flex items-center justify-center px-5 py-3 text-gray-500 transition border border-gray-200 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring"
           type="button"
         >
-          <span class="text-sm font-medium"> View Website </span>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-4 h-4 ml-1.5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </button>
-
-        <button
-          class="inline-flex items-center justify-center px-5 py-3 text-gray-500 transition border border-gray-200 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring"
-          type="button"
-        >
-          Create Post
+          Lanjutkan Kelas
         </button>
       </div>
     </div>
@@ -163,7 +141,7 @@
 
             </div>
           </div>
-          <div class="p-4 md:w-1/4" id="bantu2">
+          <!-- <div class="p-4 md:w-1/4" id="bantu2">
             <div class="h-full rounded-xl bg-white overflow-hidden shadow-lg">
               <a href="">
                 <img
@@ -231,7 +209,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
