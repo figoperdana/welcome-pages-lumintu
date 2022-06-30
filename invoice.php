@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css" />
+
+    <title>Invoice | Lumintu Classsroom</title>
+
+    <!-- Flowbite CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.14.3/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <!-- CDN TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+<?php
+        require "./templates/navbarr.php";
+        ?>
+    <div class="py-16 bg-gradient-to-br from-[#C27D2B] to-[#CEB27C] w-full h-full">
+
+        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl text-white font-bold md:text-4xl pt-6">Invoice</h2>
+                <p class="lg:w-6/12 lg:mx-auto text-gray-100">Berikut adalah history modul apa saja yang sudah dibeli atau belum : </p>
+            </div>
+            <div class="grid gap-12 lg:grid-cols-2">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white shadow-xl hover:rounded-2xl">
+                    <img src="assets/img/gradit.png" alt="art cover" loading="lazy" width="1000" height="667" class="h-56 sm:h-full w-full sm:w-5/12 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl">
+                    <div class="sm:w-7/12 pl-0 p-5">
+                        <div class="space-y-2">
+                            <div class="space-y-4">
+                                <h4 class="text-2xl font-semibold text-cyan-900">GradIT</h4>
+                                <p class="text-gray-600 pb-2">Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                            </div>
+                            <span class="block w-max px-6 border border-green-200 rounded bg-green-100 text-green-600 shadow">Berhasil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white shadow-xl hover:rounded-2xl">
+                    <img src="assets/img/gradit.png" alt="art cover" loading="lazy" width="1000" height="667" class="h-56 sm:h-full w-full sm:w-5/12 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl">
+                    <div class="sm:w-7/12 pl-0 p-5">
+                        <div class="space-y-2">
+                            <div class="space-y-4">
+                                <h4 class="text-2xl font-semibold text-cyan-900">GradIT</h4>
+                                <p class="text-gray-600 pb-2">Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                            </div>
+                            <span class="block w-max px-6 border border-red-200 rounded bg-red-100 text-red-600 shadow">Gagal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white shadow-xl hover:rounded-2xl">
+                    <img src="assets/img/gradit.png" alt="art cover" loading="lazy" width="1000" height="667" class="h-56 sm:h-full w-full sm:w-5/12 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl">
+                    <div class="sm:w-7/12 pl-0 p-5">
+                        <div class="space-y-2">
+                            <div class="space-y-4">
+                                <h4 class="text-2xl font-semibold text-cyan-900">GradIT</h4>
+                                <p class="text-gray-600 pb-2">Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                            </div>
+                            <span class="block w-max px-6 border border-yellow-200 rounded bg-yellow-100 text-yellow-600 shadow">Pending</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+        require_once "templates/footer.php";
+        ?>
+</body>
+
+
+
+<script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+
+</html>

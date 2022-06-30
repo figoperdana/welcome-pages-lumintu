@@ -1,6 +1,3 @@
-<?php
-require_once "./index.php";
-?>
 <!DOCTYPE html>
 <html>
 
@@ -14,18 +11,18 @@ require_once "./index.php";
 
 <body>
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 shadow-lg">
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 shadow-lg">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="https://account.lumintulogic.com/home.php" class="flex items-center">
                 <img src="assets/logo/logo_lumintu.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
             </a>
             <div class="flex items-center md:order-2">
-                <button data-modal-toggle="ModalPayment" type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mrd-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
+                <button data-modal-toggle="ModalPayment" type="button" class="flex mr-3 text-sm rounded-full md:mrd-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                 </button>
-                <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
+                <button type="button" class="flex mr-3 text-sm rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 " id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
@@ -43,7 +40,7 @@ require_once "./index.php";
                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                            <a href="./invoice.php" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Invoice</a>
                         </li>
                         <li>
                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
