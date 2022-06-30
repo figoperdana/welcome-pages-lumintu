@@ -25,9 +25,9 @@
 </head>
 
 <body>
-<?php
-        require "./templates/navbarr.php";
-        ?>
+    <?php
+    require "./templates/navbarr.php";
+    ?>
     <div class="py-16 bg-gradient-to-br from-[#C27D2B] to-[#CEB27C] w-full h-full">
 
         <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
@@ -44,7 +44,11 @@
                                 <h4 class="text-2xl font-semibold text-cyan-900">GradIT</h4>
                                 <p class="text-gray-600 pb-2">Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
                             </div>
-                            <span class="block w-max px-6 border border-green-200 rounded bg-green-100 text-green-600 shadow">Berhasil</span>
+                            <div class="flex flex-row justify-between">
+                                <span class="block w-max px-6 border border-green-200 rounded bg-green-100 text-green-600 shadow">Berhasil</span>
+                                <a type="button" data-modal-toggle="defaultModal" class="cursor-pointer text-white bg-gradient-to-br from-[#C27D2B] to-[#CE7F21] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 mt-0.5 text-center shadow">Bayar</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,8 +80,8 @@
         </div>
     </div>
     <?php
-        require_once "templates/footer.php";
-        ?>
+    require_once "templates/footer.php";
+    ?>
 </body>
 
 
