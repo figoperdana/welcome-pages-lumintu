@@ -169,7 +169,7 @@ require_once "templates/header.php";
               <div class="flex flex-wrap justify-between items-center space-y-3">
                 <p class="lg:text-3xl lg:mb-0 md:text-xl font-bold text-white">Rp 500.000</p>
                 <span class="block justify-between">
-                  <a href="#" class="text-white bg-[#C49A6C] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center">Selengkapnya</a>
+                  <a data-modal-toggle="landingModal" class="text-white bg-[#C49A6C] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center">Selengkapnya</a>
                 </span>
               </div>
             </div>
@@ -522,3 +522,6 @@ require_once "templates/header.php";
   <!-- end footer -->
 
   <?php require_once "templates/footer.php" ?>
+  <?php
+  require_once "templates/landingModal.php";
+  ?>
